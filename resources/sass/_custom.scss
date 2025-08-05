@@ -1,0 +1,63 @@
+.img-container-index {
+    /* Sesuaikan dengan kebutuhan Anda */
+    max-height: 200px; /* Sesuaikan dengan kebutuhan Anda */
+    overflow: hidden;
+}
+.img-container-edit {
+    max-width: 250px; /* Sesuaikan dengan kebutuhan Anda */
+    max-height: 250px; /* Sesuaikan dengan kebutuhan Anda */
+    overflow: hidden;
+}
+
+.img-container-question {
+    max-width: 750px; /* Sesuaikan dengan kebutuhan Anda */
+    max-height: 750px; /* Sesuaikan dengan kebutuhan Anda */
+    overflow: hidden;
+}
+
+.img-container img {
+    width: 100%;
+    height: auto;
+}
+
+.dataTable tbody td {
+    vertical-align: middle;
+}
+
+.dataTable tbody td {
+    vertical-align: middle;
+}
+
+.dataTables_wrapper table thead th,
+.dataTables_wrapper table tbody tr {
+    white-space: nowrap;
+}
+
+.login {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    height: 15vh;
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Overlay */
+.hero .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #073b4c;
+    opacity: 0.9; /* Tingkat transparansi */
+}
